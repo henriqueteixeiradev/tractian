@@ -6,7 +6,6 @@ import Document, {
   NextScript,
   DocumentContext
 } from 'next/document'
-import Analytics from 'components/Analytics'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class NextDocument extends Document {
@@ -48,7 +47,6 @@ export default class NextDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <Analytics />
         </body>
       </Html>
     )
