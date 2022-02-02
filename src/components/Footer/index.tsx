@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <S.Section>
       <S.Content>
-        © {new Date().getFullYear()}, TRACTIAN | Todos od direito reservados
+        © {new Date().getFullYear()}, TRACTIAN | Todos os direitos reservados
       </S.Content>
     </S.Section>
   )
