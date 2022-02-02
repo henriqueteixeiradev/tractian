@@ -28,8 +28,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             'Monitore seus ativos industriais com o sistema preditivo mais completo do mercado que te informa sobre a operação, melhorando o desempenho de suas máquinas.',
           images: [
             {
-              url:
-                'https://res.cloudinary.com/bellmont-sistema/image/upload/v1612594246/thumbnail_undraw_content_team_b41f963811.png'
+              url: 'https://tractian-ebon.vercel.app/img/cover.png'
             }
           ],
           site_name:
