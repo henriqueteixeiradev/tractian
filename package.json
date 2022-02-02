@@ -1,0 +1,50 @@
+{
+  "name": "tractian",
+  "version": "1.0.0",
+  "description": "Monitore seus ativos industriais com o sistema preditivo mais completo do mercado que te informa sobre a operação, melhorando o desempenho de suas máquinas.",
+  "scripts": {
+    "test": "jest --passWithNoTests",
+    "lint": "eslint src",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "yarn build && next export",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json)\""
+  },
+  "author": "Bellmont Sistema",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@testing-library/react": "^11.2.6",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.4",
+    "@types/styled-components": "^5.1.9",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "jest-styled-components": "^7.0.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "next": "12",
+    "next-seo": "^4.20.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "styled-components": "^5.2.1"
+  }
+}
