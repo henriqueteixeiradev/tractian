@@ -36,6 +36,13 @@ export const Testimonial = () => {
   }
 
   useEffect(() => {
+    const interval = setInterval(() => {
+      handleIndexNext()
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [toCart])
+
+  useEffect(() => {
     gsap.fromTo(
       AnimateCart.current,
       { opacity: '0', translateY: '20' },

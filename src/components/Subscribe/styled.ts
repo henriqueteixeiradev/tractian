@@ -156,13 +156,18 @@ export const RadioWrapper = styled.form`
 
 export const ButtonWrapper = styled.div`
   ${({ theme }) => css`
+    display: flex;
     width: 100%;
     margin-top: ${theme.spacings.small};
 
-    a {
+    button {
       display: flex;
       justify-content: center;
       align-items: center;
+
+      width: 100%;
+
+      cursor: pointer;
 
       padding: ${theme.spacings.xxsmall} ${theme.spacings.xsmall};
 
