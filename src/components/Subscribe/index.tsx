@@ -173,6 +173,7 @@ export const Subscribe = () => {
                     value="Outro"
                     name="gender"
                     onChange={(e) => setOption(e.target.value)}
+                    checked={option === 'Outro' ? true : false}
                   />
                   Outro
                 </li>
