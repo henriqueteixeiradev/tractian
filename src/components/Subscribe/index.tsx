@@ -20,9 +20,9 @@ export const Subscribe = () => {
 
   const handleSubmit = (evt) => {
     evt.preventDefault()
-    var xhr = new XMLHttpRequest()
-    var url = hubspotApi
-    var data = {
+    let xhr = new XMLHttpRequest()
+    let url = hubspotApi
+    let data = {
       fields: [
         {
           name: 'email',
@@ -50,7 +50,7 @@ export const Subscribe = () => {
         pageName: 'Formuário Página Principal'
       }
     }
-    var final_data = JSON.stringify(data)
+    let final_data = JSON.stringify(data)
 
     xhr.open('POST', url)
     // Sets the value of the 'Content-Type' HTTP request headers to 'application/json'
