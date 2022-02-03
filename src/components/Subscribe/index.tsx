@@ -53,7 +53,7 @@ export const Subscribe = () => {
     let final_data = JSON.stringify(data)
 
     xhr.open('POST', url)
-    // Sets the value of the 'Content-Type' HTTP request headers to 'application/json'
+
     xhr.setRequestHeader('Content-Type', 'application/json')
 
     xhr.onreadystatechange = function () {
@@ -67,7 +67,7 @@ export const Subscribe = () => {
         toast.info('Ooops! Há algo de errado com seu email.')
       }
     }
-    // Sends the request
+
     xhr.send(final_data)
   }
 
